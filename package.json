@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "lite-server": "^2.5.4"
   },
   "devDependencies": {
     "css-loader": "^4.3.0",
