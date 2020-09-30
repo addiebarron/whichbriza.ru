@@ -89,7 +89,6 @@ const randomSrc = async () => {
 const renderResults = image => {
   resultsElem.classList.add('finished');
   textElem.innerHTML = `<h1>${image.name}</h1><p>${image.text}</p>`;
-  console.log(image.text);
 };
 
 function preloadImages(array) {

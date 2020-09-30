@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 http
   .createServer((req, res) => {
-    const filePath = __dirname + '/index.html';
+    const filePath = __dirname + (req.url === '/' ? '/index.html' : req.url);
     fs.readFile(filePath, (err, data) => {
       if (err) {
         res.writeHead(404);
