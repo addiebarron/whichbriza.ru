@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Nixie+One&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap);
+
 * {
   box-sizing: border-box;
 }
@@ -107,6 +108,7 @@ html,
     transform: rotate(3deg);
   }
 }
+
 @media (max-width: 600px) {
   #container main #results-container {
     height: 100vw;
